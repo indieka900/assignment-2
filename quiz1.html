@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        p {
+            font-size: 20px;
+        }
+        .about {
+            letter-spacing: 0.07rem;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        li {
+            padding: 10px;
+        }
+        .main-cont {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .images,
+        .text {
+            flex: 1;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around; 
+            padding:  0px 20px;
+        }
+        img {
+            height: 25vh;
+            border-radius: 8px;
+            margin-left: 12px;
+        }
+        .img1 {
+            height: 300px;
+            width: 300px;
+        }
+        .img2 {
+            margin-top: 50px;
+            height: 200px;
+            width: 200px;
+        }
+        .last {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+        }
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 0px;
+        }
+        .the-text {
+            font-size: 12px;
+        }
+        #years {
+            font-weight: bold;
+            font-size: 42px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-cont">
+        <div class="images">
+            <div class="image">
+                <div class="image1"><img src="images/myI.jpg" alt=""></div>
+                <div class="years">
+                    <p id="years">6+</p>
+                    <p class="the-text"><span>years of writing codes</span></p>
+                </div>
+            </div>
+            
+            <div class="last">
+                <img class="img1" src="images/myI.jpg" alt="">
+                <img class="img2" src="images/myI.jpg" alt="">
+            </div>
+        </div>
+        <div class="text">
+            <p class="about">About us</p>
+            <h1>We create incredible <br> <span>digital experience</span> </h1>
+            <p> we are a team of <strong>expert</strong> product designers and <b>passionate</b>
+                web developers ready to bring your most complex wb vision into life. we build responsive web apps that look
+                greate and work perfectly on any screen, designed specifically for your  <strong>bussiness needs</strong>. <br>
+                <br>
+                Spend time with our team, from initial strategy sessions to user-testing during design sprints, we'll
+                approach your project with true collaboration to deliver the very best digital solutions that both our teams can be proud of.
+            </p>
+            <div class="list">
+                <ul>
+                    <li>Creative</li>
+                    <li>Responsive</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
